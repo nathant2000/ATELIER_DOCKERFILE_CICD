@@ -23,8 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Intégration continue
-        run: |
-          echo "1. Récupérer le code du dépôt " action actions/checkout@v4
+        run: |action actions/checkout@v4
+          echo "1. Récupérer le code du dépôt " 
+          
 
   # ---------------------------------------------------------------
   # JOB 2 - Livraison continue : construire l'image Docker
