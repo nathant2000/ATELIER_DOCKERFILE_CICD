@@ -22,9 +22,9 @@ jobs:
   Tests:
     runs-on: ubuntu-latest
     steps:
-      - name: A compléter
+      - name: Intégration continue
         run: |
-          echo "Écrire ici les étapes de test de l'application"
+          echo "1. Récupérer le code du dépôt " action actions/checkout@v4
 
   # ---------------------------------------------------------------
   # JOB 2 - Livraison continue : construire l'image Docker
